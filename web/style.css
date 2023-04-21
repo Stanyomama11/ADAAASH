@@ -1,0 +1,52 @@
+::selection{
+   color:red;
+   background:yellow;
+   }
+p {
+  color: red;
+  text-align: left;
+  font-family: 'SelenaRegular';
+}
+h1 {
+  color: tomato;
+  text-align: left;
+  font-family: 'SelenaRegular'; 
+}
+h2 {
+  color:hsla(9, 100%, 64%, 1);
+  text-align: left;
+  font-family: 'SelenaRegular'; 
+}
+body {
+  background-color: rgb(128, 255, 255);
+}
+a {
+  color: #FF6347;
+ 
+}
+button {
+  color:black;
+  background-color: tomato;
+  font-family: 'SelenaRegular';
+}
+table, th, td {
+  border: 2px solid tomato;
+  border-collapse: collapse ;
+ 
+  }
+img {
+  background-color: lightgrey;
+  border: 15px solid tomato;
+  padding: 50px;
+  margin: 20px;
+  height:300px;
+}
+img:hover {
+border: 15px solid rgb(204, 0, 0);
+}
+img[src="nz.png"] {
+height:250px;
+}
+tr>td {
+ color: tomato;
+ }
