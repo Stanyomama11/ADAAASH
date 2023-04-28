@@ -10,18 +10,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>Регистрация</div>
-        
-        
-        <label for="fname">Потребителско име:</label>
-        <input type="text" id="fname" name="fname"> 
-        
-        <label for="fname">Парола:</label>
-        <input type="text" id="fname" name="fname"> 
-        
-        <label for="fname">Имейл:</label>
-        <input type="text" id="fname" name="fname"> 
-        
-         <button type="button">Влез</button> 
+       <form method="get" action="RegisterServlet">
+           <p>  <input type="text" name="name"> </p>
+           <p>  <input type="text" name="pass"> </p>
+           <p>     <input type="text" name="mail"> </p>
+                <input type="submit">
+        </form>
     </body>
 </html>
